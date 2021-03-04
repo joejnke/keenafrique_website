@@ -722,7 +722,10 @@ button:focus {
   bottom: -120px;
 }
 
-#features-mission {
+/* ==========================================================================
+  6.1. Features Section like Style for mission section
+   ========================================================================== */
+#mission {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -730,15 +733,15 @@ button:focus {
   position: relative;
 }
 
-#features-mission .section-title {
+#mission .section-title {
   color: #fff;
 }
 
-#features-mission .section-subtitle {
+#mission .section-subtitle {
   color: #fff;
 }
 
-#features-mission .icon {
+#mission .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -748,11 +751,11 @@ button:focus {
   z-index: 1;
 }
 
-#features-mission .box-item {
+#mission .box-item {
   padding: 15px 0;
 }
 
-#features-mission .box-item .icon {
+#mission .box-item .icon {
   border: 1px solid #61D2B4;
   text-align: center;
   float: left;
@@ -762,7 +765,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features-mission .box-item .icon i {
+#mission .box-item .icon i {
   color: #61D2B4;
   font-size: 24px;
   line-height: 60px;
@@ -772,11 +775,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#features-mission .box-item .text {
+#mission .box-item .text {
   padding-left: 80px;
 }
 
-#features-mission .box-item .text h4 {
+#mission .box-item .text h4 {
   color: #61D2B4;
   font-weight: 700;
   font-size: 16px;
@@ -784,20 +787,20 @@ button:focus {
   line-height: 22px;
 }
 
-#features-mission .box-item .text p {
+#mission .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features-mission .box-item:hover .icon {
+#mission .box-item:hover .icon {
   background: #61D2B4;
 }
 
-#features-mission .box-item:hover .icon i {
+#mission .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features-mission .show-box img {
+#mission .show-box img {
   position: absolute;
   bottom: -120px;
 }
